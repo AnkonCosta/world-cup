@@ -1,0 +1,147 @@
+/* google fonts -------------
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+/* styling hero section-----------
+------------- */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 646px;
+    background-color: #161616;
+    color: white;
+    margin: 60px auto;
+    border-radius: 30px;
+    padding: 60px;
+
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 70px;
+
+}
+
+.section-left p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.section-left button {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.section-right img {
+    width: 581px;
+    height: 613px;
+}
+
+/* second-section starts-------------
+------------ */
+.second-section {
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.aside-buttons {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 30px;
+
+
+}
+
+.buttons button {
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    border: 1px solid green;
+    color: rgb(0, 0, 0);
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    margin: 30px auto;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 19px;
+    margin-left: 10px;
+
+}
+
+.match-detail button {
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.match h4,
+i {
+    padding: 10px;
+}
+
+.match-time i {
+    margin: 0 5px;
+}
+
+/* footer section  */
+.footer-section {
+    color: white;
+    background-color: #161616;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-section h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid grey;
+    margin: 50px 70px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
