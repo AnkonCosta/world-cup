@@ -26,7 +26,7 @@ body {
 
 .hero-title {
     font-weight: 700;
-    font-size: 4.5em;
+    font-size: 70px;
 
 }
 
@@ -87,31 +87,35 @@ body {
 .matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+    row-gap: 10px;
     column-gap: 10px;
 }
 
 .match {
     width: 312px;
-    height: 362px;
-    border: 1px solid rgb(209, 202, 202);
+    height: 280px;
+    border: 1px solid rgb(248, 245, 245);
     border-radius: 19px;
     margin-left: 10px;
+    padding-top: 30px;
+    text-align: center;
 
 }
 
-.match-detail button {
-    background-color: white;
+.match-country {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match h4 {
+    font-size: 24px;
+}
+
+.match-time {
     font-size: 16px;
-    border: 1px solid grey;
-    border-radius: 5px;
-    line-height: 30px;
-    margin: 0 10px;
-}
-
-.match h4,
-i {
-    padding: 10px;
+    font-weight: lighter;
+    color: rgb(82, 78, 78);
 }
 
 .match-time i {
@@ -144,107 +148,4 @@ hr {
     color: white;
     text-align: center;
     margin: 10px;
-}
-
-/*-------------media query-----
------ responsive view----
---------------- */
-
-@media screen and (max-width: 688px) {
-    main {
-        width: 100%;
-    }
-
-    .hero-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: 1000px;
-        background-color: #161616;
-        color: white;
-        margin: 60px auto;
-        border-radius: 30px;
-        padding: 60px;
-        text-align: center;
-    }
-
-    .hero-title h1 {
-        width: 90%;
-        font-size: 1em;
-
-    }
-
-    .section-right img {
-        width: 100%;
-        height: 250px;
-        width: 250px;
-        padding-top: 20px;
-    }
-
-    .section-left button {
-        text-decoration: none;
-        background-color: #DD0000;
-        padding: 10px 15px;
-        color: white;
-        font-size: 12px;
-        font-weight: 300;
-        border-radius: 5px;
-    }
-
-    .second-section {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin: 100px auto;
-    }
-
-    .aside-buttons {
-        width: 100%;
-        background-color: white;
-
-
-    }
-
-    .matches {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 20px;
-        column-gap: 10px;
-    }
-
-    .match {
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-
-    }
-
-
-    .match img {
-        width: 100%;
-
-    }
-
-    /* footer starts-------------
---------------- */
-    .footer-section {
-        width: 100%;
-        height: 900px;
-        padding-top: 30px;
-
-    }
-
-    .footer-section a {
-        font-family: none;
-        display: block;
-        margin: 20px 0;
-    }
-
-    .social-media a {
-        display: inline-block;
-    }
 }
